@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 
 // bootstrap modules
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { LandPageComponent } from './pages/land-page/land-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandPageComponent,
   ],
   imports: [
     BrowserModule,
