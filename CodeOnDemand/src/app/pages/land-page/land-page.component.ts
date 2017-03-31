@@ -10,6 +10,7 @@ export class LandPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
