@@ -1,0 +1,5 @@
+npm install bootstrap@4.0.0-alpha.6 //bootstrap 4
+
+// para atualizar o angular cli para rodar com angular 4.0.1 (necessário fazer isso dentro da pasta do projeto)
+npm uninstall --save-dev angular-cli
+npm install --save-dev angular-cli@latest
