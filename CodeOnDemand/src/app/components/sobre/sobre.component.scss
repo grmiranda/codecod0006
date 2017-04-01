@@ -1,10 +1,31 @@
-.sem-margem{
- margin: 0px !important;
- padding: 0px !important;
+@media screen and (max-width: 576px){
+    .sem-margem{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .margem{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+@media screen and (min-width: 576px){
+    .sem-margem{
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+.centralizar{
+    align-self: center;
 }
 
 p{
     word-wrap: break-word;
+}
+.titulo{
+    padding-bottom: 25px;
+    text-align: center;
 }
 
 .imagem-sobre{
