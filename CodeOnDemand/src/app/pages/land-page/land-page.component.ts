@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./land-page.component.scss']
 })
 export class LandPageComponent implements OnInit {
-
+  public isCollapsed = false;
   constructor() { }
 
   ngOnInit() {

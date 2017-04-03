@@ -14,6 +14,7 @@ import { LandPageComponent } from './pages/land-page/land-page.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { EquipeComponent } from './components/equipe/equipe.component';
 import { FaleConoscoComponent } from './components/fale-conosco/fale-conosco.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FaleConoscoComponent } from './components/fale-conosco/fale-conosco.com
     SobreComponent,
     EquipeComponent,
     FaleConoscoComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

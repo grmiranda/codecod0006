@@ -13,12 +13,10 @@ export class EquipeComponent implements OnInit {
   ngOnInit() {
   }
 
-  showFrist(){
+  showElements(){
     $("#membro1").removeClass("hidden-sm-up").addClass("animated bounceInRight");
     $("#membro2").removeClass("hidden-sm-up").addClass("animated bounceInUp");
     $("#membro3").removeClass("hidden-sm-up").addClass("animated bounceInLeft");
-  }
-  showSecond(){
     $("#membro4").removeClass("hidden-sm-up").addClass("animated bounceInRight");
     $("#membro5").removeClass("hidden-sm-up").addClass("animated bounceInUp");
     $("#membro6").removeClass("hidden-sm-up").addClass("animated bounceInLeft");
