@@ -6,6 +6,9 @@
 img{
     left: 25%;
 }
+.fix-height{
+    min-height: fill;
+}
 .centro{
     text-align: center;
 }
@@ -14,4 +17,8 @@ img{
 }
 h4{
     padding-top: 30px;
+}
+#membro1, #membro2, #membro3, #membro4, #membro5, #membro6, {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }

@@ -1,14 +1,38 @@
 <div class="container-fluid sem-margem">
+
   <div class="row">
-
+    <!-- Coluna com texto infomativo -->
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 margem centralizar">
-      <h1 class="titulo">Lorem Ipsum passages</h1>
-      <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <h2 class="titulo">Lorem Ipsum passages</h2>
+      <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+        Lorem Ipsum.</p>
     </div>
 
+    <!-- Coluna com imagem ilustrativa -->
     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 sem-margem">
-      <img class="imagem-sobre" src="http://placehold.it/800x300">
+      <ngb-carousel data-ride="carousel">
+        <template ngbSlide>
+          <img src="http://lorempixel.com/900/500?r=1" class="imagem-sobre">
+          <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </template>
+        <template ngbSlide>
+          <img src="http://lorempixel.com/900/500?r=2" class="imagem-sobre">
+          <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </template>
+        <template ngbSlide>
+          <img src="http://lorempixel.com/900/500?r=3" class="imagem-sobre">
+          <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </template>
+      </ngb-carousel>
     </div>
-
   </div>
 </div>

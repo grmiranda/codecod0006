@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery'
 
 @Component({
   selector: 'app-fale-conosco',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FaleConoscoComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

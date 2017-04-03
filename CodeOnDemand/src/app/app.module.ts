@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 
 // bootstrap modules
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { Angular2FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
+
+//Pages e Components
 import { LandPageComponent } from './pages/land-page/land-page.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { EquipeComponent } from './components/equipe/equipe.component';
@@ -24,7 +27,8 @@ import { FaleConoscoComponent } from './components/fale-conosco/fale-conosco.com
     BrowserModule,
     FormsModule,
     HttpModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    Angular2FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
