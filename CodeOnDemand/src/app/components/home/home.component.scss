@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+    .tamanhonav{
+    height:150px
+    }
+}
+.navcolor{
+    background-color: rgba(211, 220, 226, 0.4);
+}
+@media (min-width: 768px){
+    .logo{
+        width: 30%;
+        height: 60%;
+    }
+    .spaces{
+        color: #3b91c9;
+        padding-left: 25%;
+        padding-right: 25%;
+        text-align: center;
+    }
+}
+@media (max-width: 767px){
+    .logo{
+        height:30px;
+        padding-left: 33%;
+        padding-right: 33%;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+}
+p{
+    color: #3b91c9 !important;
+}
