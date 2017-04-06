@@ -20,27 +20,27 @@ export default {
     data(){
         return {
             equipe:[{
-                img: 'http://placehold.it/200x200',
+                img: 'http://placehold.it/150x150',
                 nome: 'Nome do Cidadão',
                 descricao: 'Descrição do cidadão'
             },{
-                img: 'http://placehold.it/200x200',
+                img: 'http://placehold.it/150x150',
                 nome: 'Nome do Cidadão',
                 descricao: 'Descrição do cidadão'
             },{
-                img: 'http://placehold.it/200x200',
+                img: 'http://placehold.it/150x150',
                 nome: 'Nome do Cidadão',
                 descricao: 'Descrição do cidadão'
             },{
-                img: 'http://placehold.it/200x200',
+                img: 'http://placehold.it/150x150',
                 nome: 'Nome do Cidadão',
                 descricao: 'Descrição do cidadão'
             },{
-                img: 'http://placehold.it/200x200',
+                img: 'http://placehold.it/150x150',
                 nome: 'Nome do Cidadão',
                 descricao: 'Descrição do cidadão'
             },{
-                img: 'http://placehold.it/200x200',
+                img: 'http://placehold.it/150x150',
                 nome: 'Nome do Cidadão',
                 descricao: 'Descrição do cidadão'
             }
