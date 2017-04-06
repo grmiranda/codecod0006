@@ -1,18 +1,18 @@
 <template>
     <div class="container-fluid">
-  <div class="row conteudo">
-    <div class="col centro"> <!-- Alterar acionador para scrollspy -->
-      <h2>Equipe</h2>
+        <div class="row conteudo">
+            <div class="col centro"> <!-- Alterar acionador para scrollspy -->
+                <h2>Equipe</h2>
+            </div>
+        </div>
+        <div class="row fix-height">
+            <div v-for="membro of equipe" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
+                <img class="redondo" :src="membro.img">
+                <h4>{{membro.nome}}</h4>
+                <p>{{membro.descricao}}</p>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="row fix-height">
-    <div v-for="membro of equipe" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
-        <img class="redondo" :src="membro.img">
-        <h4>{{membro.nome}}</h4>
-        <p>{{membro.descricao}}</p>
-    </div>
-  </div>
-</div>
 </template>
 
 <script>
@@ -50,7 +50,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .redondo{
     height: 200px;
     width: 200px;
