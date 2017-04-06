@@ -1,6 +1,6 @@
 # codeondemand
 
-> Site da nossa empresa
+> Site da code on demand
 
 ## Build Setup
 

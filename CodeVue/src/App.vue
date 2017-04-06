@@ -1,23 +1,27 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+
+  <div class="container-fluid">
+    <Home></Home>
+    <Sobre></Sobre>
+    <Equipe></Equipe>
+    <Contato></Contato>
   </div>
 </template>
 
 <script>
+import Equipe from './components/landpage/Equipe.vue'
+import Home from './components/landpage/Home.vue'
+import Sobre from './components/landpage/Sobre.vue'
+import Contato from './components/landpage/Contato.vue'
 export default {
-  name: 'app'
+  components: {
+    Equipe,
+    Home,
+    Sobre,
+    Contato
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
