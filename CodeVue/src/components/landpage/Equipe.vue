@@ -6,35 +6,10 @@
     </div>
   </div>
   <div class="row fix-height">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
-        <img class="redondo" src="http://placehold.it/200x200">
-        <h4>Nome do cidadão</h4>
-        <p>Descrição do cidadão</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
-        <img class="redondo" src="http://placehold.it/200x200">
-        <h4>Nome do cidadão</h4>
-        <p>Descrição do cidadão</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
-        <img class="redondo" src="http://placehold.it/200x200">
-        <h4>Nome do cidadão</h4>
-        <p>Descrição do cidadão</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
-        <img class="redondo" src="http://placehold.it/200x200">
-        <h4>Nome do cidadão</h4>
-        <p>Descrição do cidadão</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
-        <img class="redondo" src="http://placehold.it/200x200">
-        <h4>Nome do cidadão</h4>
-        <p>Descrição do cidadão</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
-        <img class="redondo" src="http://placehold.it/200x200">
-        <h4>Nome do cidadão</h4>
-        <p>Descrição do cidadão</p>
+    <div v-for="membro of equipe" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
+        <img class="redondo" :src="membro.img">
+        <h4>{{membro.nome}}</h4>
+        <p>{{membro.descricao}}</p>
     </div>
   </div>
 </div>
@@ -42,6 +17,36 @@
 
 <script>
 export default {
+    data(){
+        return {
+            equipe:[{
+                img: 'http://placehold.it/200x200',
+                nome: 'Nome do Cidadão',
+                descricao: 'Descrição do cidadão'
+            },{
+                img: 'http://placehold.it/200x200',
+                nome: 'Nome do Cidadão',
+                descricao: 'Descrição do cidadão'
+            },{
+                img: 'http://placehold.it/200x200',
+                nome: 'Nome do Cidadão',
+                descricao: 'Descrição do cidadão'
+            },{
+                img: 'http://placehold.it/200x200',
+                nome: 'Nome do Cidadão',
+                descricao: 'Descrição do cidadão'
+            },{
+                img: 'http://placehold.it/200x200',
+                nome: 'Nome do Cidadão',
+                descricao: 'Descrição do cidadão'
+            },{
+                img: 'http://placehold.it/200x200',
+                nome: 'Nome do Cidadão',
+                descricao: 'Descrição do cidadão'
+            }
+            ]
+        }
+    }
 }
 </script>
 
