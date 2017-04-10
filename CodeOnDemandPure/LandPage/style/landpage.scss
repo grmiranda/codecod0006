@@ -1,3 +1,47 @@
-h1{
-    color: green;
+@media (min-width: 768px){
+    .padding{
+      padding-top:150px;
+    }
+    .onavbar{
+      background-color: #EAEAE0;
+      height:150px;
+    }
+    .logo{
+        margin-left: 31%;
+        width: 33%;
+        height: 60%;
+    }
+    .collapse{
+    position:absolute
+    }
+    #paragrafo4{
+        margin-left:33%;
+        width:11%;
+    }
+    .otherSpaces{
+        width:11%;
+    }
 }
+@media (max-width: 767px){
+    .logo{
+        height:30px;
+        padding-left: 33%;
+        padding-right: 33%;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .onavbar{
+      background-color: #EAEAE0;
+    }
+}
+p{
+    color: #3b91c9 !important;
+}
+
+.btn{
+  margin-right:25%;
+}
+.fa-bars{
+  color: #3b91c9 !important;
+}
+body { padding-top: 70px; }

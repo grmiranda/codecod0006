@@ -5,19 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeOnDemand</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
     <script src="https://use.fontawesome.com/7a0f6fa14f.js"></script>
     <link href="style/landpage.css" rel="stylesheet" media="screen">
 </head>
 
 <body>
-    <div class="container">
-        <div id="app">
-            <h1>{{ message }}</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top onavbar">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <img class="logo" src="./assets/empresaNome.png">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav" style="width:100%;">
+                    <li class="nav-item active otherSpaces">
+                        <a class="nav-link" href="#"><p>Home</p></a>
+                    </li>
+                    <li class="nav-item active otherSpaces">
+                        <a class="nav-link" href="#"><p>Portifolio</p></a>
+                    </li>
+                    <li class="nav-item active otherSpaces">
+                        <a class="nav-link" href="#"><p>Sobre</p></a>
+                    </li>
+                    <li class="nav-item active"  id="paragrafo4">
+                        <a class="nav-link" href="#"><p>Equipe</p></a>
+                    </li>
+                    <li class="nav-item active otherSpaces">
+                        <a class="nav-link" href="#"><p>Contato</p></a>
+                    </li>
+                    <li class="otherSpaces">
+                        <button class="btn btn-outline-primary azul my-2 my-sm-0" type="submit">Login</button>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-
+    </nav>
+    <!-- Home -->
+    <!-- Sobre -->
+    <!-- Equipe -->
+    <!-- Fale conosco -->
 </body>
+
 <script src="https://unpkg.com/vue@2.2.6"></script>
 <script>
     var app = new Vue({
@@ -26,10 +58,17 @@
             message: 'Hello Vue!'
         }
     })
+
 </script>
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+
+
+
 
 
 </html>
