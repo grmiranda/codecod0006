@@ -1,15 +1,19 @@
 @media (min-width: 768px) {
   .padding {
-    padding-top: 150px; }
+    padding-top: 110px; }
 
   .onavbar {
     background-color: #EAEAE0;
-    height: 150px; }
+    height: 180px;
+    padding-left: 5%; }
+
+  .botaoLogin {
+    margin-right: 5% !important; }
 
   .logo {
-    margin-left: 31%;
-    width: 33%;
-    height: 60%; }
+    margin-left: 36%;
+    width: 22%;
+    height: 90%; }
 
   .collapse {
     position: absolute; }
@@ -28,10 +32,41 @@
     margin-bottom: 10px;
     margin-top: 5px; }
 
+  .padding {
+    padding-top: 0px; }
+
   .onavbar {
     background-color: #EAEAE0; } }
-p {
+.navPColor {
   color: #3b91c9 !important; }
+
+.navbar-toggler {
+  margin-top: 1%;
+  margin-right: 2%; }
+
+.container-fluid {
+  padding-left: 0px !important; }
+
+.imgHome {
+  width: 100%; }
+
+@media (max-width: 767px) {
+  .homeImg {
+    position: relative; }
+
+  .homeP {
+    position: absolute;
+    color: white; } }
+@media (min-width: 767px) {
+  .homeP {
+    background-color: #f2f2ea; } }
+.homeImg {
+  padding-right: 0px !important;
+  padding-left: 0px !important; }
+
+.homeP {
+  text-align: center;
+  width: 100%; }
 
 .btn {
   margin-right: 25%; }
@@ -41,5 +76,113 @@ p {
 
 body {
   padding-top: 70px; }
+
+.redondo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%; }
+
+img {
+  left: 25%; }
+
+.fix-height {
+  min-height: fill; }
+
+.centro {
+  text-align: center; }
+
+.conteudo {
+  padding-top: 30px; }
+
+h4 {
+  padding-top: 30px; }
+
+@media (min-width: 992px) {
+  #integrante5 {
+    padding-left: 15%; }
+
+  #integrante6 {
+    padding-right: 15%; } }
+@media screen and (min-width: 576px) {
+  .margem-left {
+    padding-left: 50px; }
+
+  .margem-right {
+    padding-right: 50px; } }
+.footer {
+  margin-top: 100px;
+  padding-top: 60px;
+  width: 100%;
+  background: #e6e6e6; }
+
+.separador {
+  margin: 30px; }
+
+.separador-top {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%; }
+
+p {
+  word-wrap: break-word; }
+
+.centralizar {
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center; }
+
+.titulo {
+  padding-bottom: 25px;
+  text-align: center; }
+
+.button-social {
+  margin-right: 15px;
+  align-items: center;
+  text-align: center;
+  border-color: rgba(238, 238, 238, 0.2);
+  border-radius: 18.5%;
+  width: 55px;
+  height: 55px; }
+
+.instagram {
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF); }
+
+.instagram:hover {
+  cursor: pointer;
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF); }
+
+.facebook {
+  background: linear-gradient(top, #3b5998, #2b4170); }
+
+.facebook:hover {
+  cursor: pointer;
+  background: linear-gradient(top, #2b4170, #3b5998); }
+
+.github {
+  background: linear-gradient(top, black, #1a1a1a); }
+
+.github:hover {
+  cursor: pointer;
+  background: linear-gradient(top, #1a1a1a, black); }
+
+.linkedin {
+  background: linear-gradient(top, #009cda, #0073b2); }
+
+.linkedin:hover {
+  cursor: pointer;
+  background: linear-gradient(top, #0073b2, #009cda); }
+
+.icon {
+  color: white;
+  position: relative;
+  left: -10px;
+  top: -6px; }
+
+.icon-face {
+  color: white;
+  position: relative;
+  left: 4px;
+  top: -2px; }
 
 /*# sourceMappingURL=landpage.css.map */

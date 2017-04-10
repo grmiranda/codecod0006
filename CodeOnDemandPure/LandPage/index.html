@@ -12,42 +12,162 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top onavbar">
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </button>
-            <img class="logo" src="./assets/empresaNome.png">
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav" style="width:100%;">
-                    <li class="nav-item active otherSpaces">
-                        <a class="nav-link" href="#"><p>Home</p></a>
-                    </li>
-                    <li class="nav-item active otherSpaces">
-                        <a class="nav-link" href="#"><p>Portifolio</p></a>
-                    </li>
-                    <li class="nav-item active otherSpaces">
-                        <a class="nav-link" href="#"><p>Sobre</p></a>
-                    </li>
-                    <li class="nav-item active"  id="paragrafo4">
-                        <a class="nav-link" href="#"><p>Equipe</p></a>
-                    </li>
-                    <li class="nav-item active otherSpaces">
-                        <a class="nav-link" href="#"><p>Contato</p></a>
-                    </li>
-                    <li class="otherSpaces">
-                        <button class="btn btn-outline-primary azul my-2 my-sm-0" type="submit">Login</button>
-                    </li>
-                </ul>
+    <div id="app">
+        <!-- Navbar -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top onavbar" id="navbar">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <img class="logo" src="./assets/empresaLogo.png">
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav" style="width:100%;">
+                            <li class="nav-item active otherSpaces">
+                                <a class="nav-link" href="#"><p class="navPColor">Home</p></a>
+                            </li>
+                            <li class="nav-item active otherSpaces">
+                                <a class="nav-link" href="#"><p class="navPColor">Portifolio</p></a>
+                            </li>
+                            <li class="nav-item active otherSpaces">
+                                <a class="nav-link" href="#"><p class="navPColor">Sobre</p></a>
+                            </li>
+                            <li class="nav-item active"  id="paragrafo4">
+                                <a class="nav-link" href="#"><p class="navPColor">Equipe</p></a>
+                            </li>
+                            <li class="nav-item active otherSpaces">
+                                <a class="nav-link" href="#"><p class="navPColor">Contato</p></a>
+                            </li>
+                            <li class="otherSpaces botaoLogin">
+                                <button class="btn btn-outline-primary azul my-2 my-sm-0" type="submit">Login</button>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+        <!-- Home -->
+        <div class="container-fluid padding">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 homeImg">
+                    <img class="imgHome" src="http://placehold.it/800x400">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 homeP">
+                    <h2>Code On Demand</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Cum laboriosam quae repellat dolore modi id dolor corporis natus accusantium velit, 
+                    dolorum dolorem tempore aut, cupiditate nemo, fugit facere iure blanditiis.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 homeImg">
+                    <img class="imgHome" src="https://placeimg.com/100/200/any">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 homeImg">
+                    <img class="imgHome" src="https://placeimg.com/100/200/any">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 homeImg">
+                    <img class="imgHome" src="https://placeimg.com/100/200/any">
+                </div>
             </div>
         </div>
-    </nav>
-    <!-- Home -->
-    <!-- Sobre -->
-    <!-- Equipe -->
-    <!-- Fale conosco -->
+        <!-- Sobre -->
+        <!-- Equipe -->
+        <div class="container-fluid">
+            <div class="row conteudo">
+                <div class="col centro"> <!-- Alterar acionador para scrollspy -->
+                    <h2>Equipe</h2>
+                </div>
+            </div>
+            <div class="row fix-height">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
+                    <img class="redondo" src="http://placehold.it/150x150">
+                    <h4>Nome Do Cidadão</h4>
+                    <p>Descrição do cidadão</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
+                    <img class="redondo" src="http://placehold.it/150x150">
+                    <h4>Nome Do Cidadão</h4>
+                    <p>Descrição do cidadão</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 centro conteudo">
+                    <img class="redondo" src="http://placehold.it/150x150">
+                    <h4>Nome Do Cidadão</h4>
+                    <p>Descrição do cidadão</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 centro conteudo" id="integrante5">
+                    <img class="redondo" src="http://placehold.it/150x150">
+                    <h4>Nome Do Cidadão</h4>
+                    <p>Descrição do cidadão</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 centro conteudo" id="integrante6">
+                    <img class="redondo" src="http://placehold.it/150x150">
+                    <h4>Nome Do Cidadão</h4>
+                    <p>Descrição do cidadão</p>
+                </div>
+            </div>
+        </div>
+        <!-- Contato -->
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 margem-left centralizar">
+                <h2 class="titulo">Siga nas Rede Sociais</h2>
+
+                <button class="btn button-social facebook">
+                    <i class="fa fa-facebook fa-3x icon-face"></i>
+                </button>
+                <button class="btn button-social instagram">
+                    <i class="fa fa-instagram fa-3x icon"></i>
+                </button>
+                <button class="btn button-social linkedin">
+                    <i class="fa fa-linkedin fa-3x icon"></i>
+                </button>
+                <button class="btn button-social github">
+                    <i class="fa fa-github fa-3x icon"></i>
+                </button>
+
+                </div>
+                <div class="hidden-sm-down col-md-4 col-lg-4 col-xl-4">
+                <h2 class="titulo">Lorem Ipsum passages</h2>
+                <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum.</p>
+                </div>
+                <div class="titulo separador-top hidden-sm-up">
+                <h2 class="titulo">Fale-Conosco</h2>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 margem-right">
+
+                <form>
+                    <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+                        <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+                        <div class="form-group">
+                        <label for="telefone" i="telDDD">Telefone:</label>
+                        <input type="tel" class="form-control" id="telefone">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 <script src="https://unpkg.com/vue@2.2.6"></script>
@@ -55,8 +175,26 @@
     var app = new Vue({
         el: '#app',
         data: {
-            message: 'Hello Vue!'
+            message: 'Hello Vue!',
+            previusScroll: 0
+
+        },
+        methods: {
+            handleScroll () {
+                var divHeight
+                var obj = document.getElementById('navbar')
+                if(this.previusScroll < window.scrollY){
+                }
+                this.previusScroll = window.scrollY
+            }
+        },
+        created () {
+            window.addEventListener('scroll', this.handleScroll);
+        },
+        destroyed () {
+            window.removeEventListener('scroll', this.handleScroll);
         }
+        
     })
 
 </script>
