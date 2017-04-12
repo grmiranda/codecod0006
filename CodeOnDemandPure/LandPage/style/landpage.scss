@@ -1,3 +1,12 @@
+//css geral
+body{
+    background-color: #EAEAE0 !important;
+    padding-top: 70px;
+}
+h4{
+    padding-top:30px;
+    color: #124a6d;
+}
 //css do navbar
 @media (min-width: 768px){
     .padding{
@@ -26,6 +35,9 @@
     .otherSpaces{
         width:11%;
     }
+    .navbar-nav{
+        margin-top:2%;
+    }
 }
 @media (max-width: 767px){
     .logo{
@@ -42,26 +54,30 @@
       background-color: #EAEAE0;
     }
 }
-.navPColor{
+p{
     color: #3b91c9 !important;
 }
 .navbar-toggler{
     margin-top:1%;
     margin-right:2%;
 }
+.btn{
+  margin-right:25%;
+}
+.fa-bars{
+  color: #3b91c9 !important;
+}
 
 //css do home
-.container-fluid{
-    padding-left:0px !important;
-}
 .imgHome{
     width:100%;
+    max-height: 400px;
 }
 @media (max-width: 767px){
     .homeImg{
         position: relative;
     }
-    .homeP{
+    #paragrafoHome{
         position: absolute;
         color: white;
     }
@@ -70,25 +86,33 @@
     .homeP{
         background-color: #f2f2ea;
     }
-}
-.homeImg{
-    padding-right:0px !important;
-    padding-left:0px !important;
+    .imgEsquerda{
+        padding-right:0px !important;
+    }
+    .imgCentro{
+        padding-right:0px !important;
+        padding-left:0px !important;
+    }
+    .imgDireita{
+        padding-left:0px !important;
+    }
 }
 .homeP{
     text-align: center;
-    width: 100%;
+    height:100%;
+}
+.homeP h4{
+    padding-top:20%
+}
+#paragrafoHome{
+    padding-left:0px;
 }
 
 
 //css da equipe
-.btn{
-  margin-right:25%;
+#equipe{
+    background-color: #f2f2ea;
 }
-.fa-bars{
-  color: #3b91c9 !important;
-}
-body { padding-top: 70px; }
 .redondo{
     height: 200px;
     width: 200px;
@@ -106,7 +130,7 @@ img{
 .conteudo{
     padding-top: 30px;
 }
-h4{
+h6{
     padding-top: 30px;
 }
 @media (min-width:992px){
@@ -141,10 +165,6 @@ h4{
     margin-top: 30px;
     text-align: center;
     width: 100%;
-}
-
-p{
-    word-wrap: break-word;
 }
 .centralizar{
     align-content: center;

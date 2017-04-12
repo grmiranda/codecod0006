@@ -1,0 +1,4 @@
+cor dos títulos = 2880b7
+cor da logo = 3b91c9
+cor do background = EAEAE0
+cor do background 2 = f2f2ea
