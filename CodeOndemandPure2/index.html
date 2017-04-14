@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CodeOnDemand</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
+</head>
+<body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#first"><img class="logo" src="./assets/empresaNomeBranco.png"></a> 
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#one">Sobre</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#two">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#three">Equipe</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#four">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="first">
+        <div class="header-content">
+            <div class="inner">
+                <h1>Code On Demand</h1>
+                <h4>Sistemas sob demanda</h4>
+                <hr>
+                <h4>Deixe-nos impulsionar os seus negócios</h4>
+            </div>
+        </div>
+    </header>
+    <section class="bg-primary" id="one">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <h2>SOBRE</h2>
+                    <p>Texto de sobre</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 noPadding">
+                    <!-- Slider de imagens -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="sobreIMG" src="./assets/Equipe1.jpg" alt="Cleybson e Lucas">
+                            </div>
+
+                            <div class="item">
+                                <img class="sobreIMG" src="./assets/Sobre1.jpg" alt="Gabriel Miranda em transmissão em Jequié-BA">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="bg-primary" id="two">
+        <div class="container">
+            <div class="row text-center">
+                <h2>PORTFÓLIO</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 text-center">
+                    <h3>Mobile</h3>
+                    <hr>
+                    <div class="device-container" id="smartphone1">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item active">
+                                                <img src="./assets/Setor0.jpg">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./assets/Setor1.jpg">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./assets/Setor2.jpg">
+                                            </div>
+                                            <div class="item">
+                                                <img src="./assets/Setor3.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 text-center">
+                    <h3>Web</h3>
+                    <hr>
+                    <div class="device-container" id="macbook">
+                        <div class="device-mockup portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <img id="macIMG" src="./assets/DsOutlet.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="device-container" id="smartphone2">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <img id="macIMG" src="./assets/DsMobile.png">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="bg-primary" id="three">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <h2>EQUIPE</h2>
+                    <p>Texto de equipe</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 noPadding">
+                    <!-- Slider de imagens -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="sobreIMG" src="./assets/Equipe1.jpg" alt="Cleybson e Lucas">
+                            </div>
+
+                            <div class="item">
+                                <img class="sobreIMG" src="./assets/Sobre1.jpg" alt="Gabriel Miranda em transmissão em Jequié-BA">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</html>

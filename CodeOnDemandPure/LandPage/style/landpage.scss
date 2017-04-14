@@ -36,7 +36,7 @@ h4{
         width:11%;
     }
     .navbar-nav{
-        margin-top:2%;
+        margin-top:1%;
     }
 }
 @media (max-width: 767px){
@@ -67,10 +67,11 @@ p{
 .fa-bars{
   color: #3b91c9 !important;
 }
-
 //css do home
-.imgHome{
+div img{
     width:100%;
+}
+.imgHome{
     max-height: 400px;
 }
 @media (max-width: 767px){

@@ -1,0 +1,331 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    background-color: white;
+    color: #3b91c9;
+}
+
+.logo{
+    width: 25%;
+    height: 100%;
+}
+
+hr {
+    max-width: 80px;
+    border-width: 3px;
+    opacity: 0.09;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+hr.light {
+    border-color: #fff;
+}
+
+a {
+    color: #000000;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #000000;
+    outline: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.wide-space {
+    letter-spacing: 1.6px;
+}
+
+.bg-primary {
+    background-color: white;
+}
+
+.bg-dark {
+    color: #eee;
+    background-color: #222;
+}
+
+.text-faded {
+    color: rgba(245,245,245,0.7);
+}
+
+.text-dark {
+    color: #111;
+}
+
+.text-primary {
+    color: #9c27b0;
+}
+
+.modal-content {
+    background-color: #1d1d1d;
+}
+
+
+@media (min-width: 768px) {
+    section {
+        min-height: 600px;
+        padding: 100px 0;
+    }
+}
+
+section {
+    padding: 70px 0;
+}
+   
+
+aside {
+    padding: 50px 0;
+}
+
+footer {
+    padding: 15px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.navbar-default {
+    border-color: #3b91c9;
+    font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+    background-color: #222;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+
+@media (min-width: 768px) { 
+    .navbar-header img{
+        position:relative;
+    }
+    #bs-navbar{
+        position:absolute;
+        padding-left:25%;
+        padding-top:1%
+    }
+ }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #181818;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #eee;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #000000 !important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover
+{
+    color: #000000;
+    background-color: transparent;
+}
+
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: transparent;
+        background-color: transparent;
+        min-height: 60px;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: rgba(255,255,255,0.8);
+        padding: 20px;
+        letter-spacing: 1.1px;
+        text-shadow: 1px 1px 1px rgba(60,60,60,0.7);
+    }
+
+    /* hover quando está no estado inicial */
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #fefefe;
+    }
+
+    /* quando a barra sai do lugar*/
+    .navbar-default.affix {
+        border-color: #3b91c9;
+        background-color: #3b91c9;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #ddd;
+        text-shadow: 1px 1px 1px rgba(30,30,30,0.7);
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #000000;
+    }
+}
+
+header {
+    position: relative;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-color: #c9c9c9;
+    background-image: url('../assets/mac2.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+    z-index: 2;
+}
+
+header .header-content .inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .header-content .inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.7);
+}
+
+h2{
+    color: #3b91c9;
+}
+
+h3 {
+    color: #3b91c9;
+}
+
+footer {
+    background-color:#2d2d2d;
+}
+
+@media(min-width:768px) {
+    .icon-lg {
+        font-size: 80px;
+    }
+    
+    header {
+        min-height: 100%;
+    }
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .header-content .inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    header .header-content .inner h1 {
+        font-size: 53px;
+    }
+
+    header .header-content .inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+
+
+
+    /*Parte do sobre*/
+
+    .sobreIMG{
+        position:relative;
+        border-radius: 30px;
+        width:100%;
+    }
+    .noPadding{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    .sombraAzul{
+        position:absolute;
+        width:100%;
+        height:100%;
+        background-color:  rgba(59, 145, 201, 0.5);
+    }
+}
+
+/*Parte do portfolio*/
+#macIMG{
+    width: 100%;
+    height: 100%;
+}
+
+#macbook{
+    position:relative;
+}
+#smartphone2{
+    height:148px;
+    width: 102px;
+    margin-left:35%;
+}
+
+#smartphone1{
+    height:521px;
+    width: 253px;
+    margin-left:15%;    
+}
+@media(min-width:768px) {
+    #smartphone1{
+        margin-left:25%;
+    }
+}
+
+
+
+
+
+
+
+

@@ -34,7 +34,7 @@ h4 {
     width: 11%; }
 
   .navbar-nav {
-    margin-top: 2%; } }
+    margin-top: 1%; } }
 @media (max-width: 767px) {
   .logo {
     height: 30px;
@@ -61,8 +61,10 @@ p {
 .fa-bars {
   color: #3b91c9 !important; }
 
+div img {
+  width: 100%; }
+
 .imgHome {
-  width: 100%;
   max-height: 400px; }
 
 @media (max-width: 767px) {
