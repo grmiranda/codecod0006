@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/animate.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
+    <script src="https://use.fontawesome.com/7a0f6fa14f.js"></script>
 </head>
 <body>
     <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -20,7 +21,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#first"><img class="logo" src="./assets/empresaNomeBranco.png"></a> 
+                <img class="logo" src="./assets/empresaNomeBranco.png">
             </div>
             <div class="navbar-collapse collapse" id="bs-navbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -42,7 +43,7 @@
     </nav>
     <header id="first">
         <div class="header-content">
-            <div class="inner">
+            <div class="inner wow fadeInUp">
                 <h1>Code On Demand</h1>
                 <h4>Sistemas sob demanda</h4>
                 <hr>
@@ -52,12 +53,15 @@
     </header>
     <section class="bg-primary" id="one">
         <div class="container">
+            <div class="row text-center">
+                <h2 class="wow fadeInDown">SOBRE</h2>
+                <hr>
+            </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <h2>SOBRE</h2>
+                <div class="col-xs-12 col-sm-6 col-md-5 wow fadeInLeft">
                     <p>Texto de sobre</p>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 noPadding">
+                <div class="col-xs-12 col-sm-6 col-md-7 wow fadeInRight noPadding">
                     <!-- Slider de imagens -->
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
@@ -85,14 +89,12 @@
     <section class="bg-primary" id="two">
         <div class="container">
             <div class="row text-center">
-                <h2>PORTFÓLIO</h2>
+                <h2 class="wow fadeInDown">PORTFÓLIO</h2>
                 <hr>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-6 text-center">
-                    <h3>Mobile</h3>
-                    <hr>
-                    <div class="device-container" id="smartphone1">
+                <div class="col-xs-12 col-sm-6 wow fadeInLeft">
+                    <div class="device-container center-block" id="smartphone1">
                         <div class="device-mockup iphone6_plus portrait white">
                             <div class="device">
                                 <div class="screen">
@@ -121,19 +123,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 text-center">
-                    <h3>Web</h3>
-                    <hr>
+                <div class="col-xs-12 col-sm-6 text-center wow fadeInRight">
                     <div class="device-container" id="macbook">
                         <div class="device-mockup portrait white">
-                            <div class="device">
+                            <div class="device" id="macdevice">
                                 <div class="screen">
                                     <img id="macIMG" src="./assets/DsOutlet.png">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="device-container" id="smartphone2">
+                    <div class="device-container"id="smartphone2">
                         <div class="device-mockup iphone6_plus portrait white">
                             <div class="device">
                                 <div class="screen">
@@ -152,12 +152,15 @@
     <hr>
     <section class="bg-primary" id="three">
         <div class="container">
+            <div class="row text-center">
+                <h2 class="wow fadeInDown">EQUIPE</h2>
+                <hr>
+            </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <h2>EQUIPE</h2>
+                <div class="col-xs-12 col-sm-6 col-md-5 wow fadeInLeft">
                     <p>Texto de equipe</p>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 noPadding">
+                <div class="col-xs-12 col-sm-6 col-md-7 wow fadeInRight noPadding">
                     <!-- Slider de imagens -->
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
@@ -181,10 +184,68 @@
             </div>
         </div>
     </section>
+    <section class="main-section contact" id="four">
+        <div class="container">
+            <div class="row text-center"><h2 class="contTitulo">CONTATO</h2></div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-7 wow fadeInLeft">
+                    <div class="contact-info-box">
+                        <h3><i class="fa fa-map-marker"></i>Endereço:</h3>
+                        <h3>Feira de Santana - BA</h3>
+                    </div>
+                    <div class="contact-info-box clearfix">
+                        <h3><i class="fa-phone"></i>Telefone:</h3>
+                        <h3>(75)992262783</h3>
+                    </div>
+                    <div class="contact-info-box clearfix">
+                        <h3><i class="fa-pencil"></i>E-mail:</h3>
+                        <h3>contato@codeondemand.com</h3>
+                    </div>
+                    <ul class="social-link">
+                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+                    <div class="form">
+                        <form action="" method="post" role="form" class="contactForm">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control input-text" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Por favor, escreve ao menos 4 caracteres" />
+                                
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control input-text" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Por favor, entre um e-mail válido" />
+                                
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:8" data-msg="Por favor, pelo menos 8 caracteres" />
+                                
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Por favor, nos escreva uma mensagem" placeholder="Mensagem"></textarea>
+                                
+                            </div>
+                            
+                            <div class="text-center"><button type="submit" class="input-btn">Enviar menssagem</button></div>
+                        </form>
+                    </div>	
+                </div>
+            </div>
+        </div>
+    </section>
     
 </body>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery.easing.min.js"></script>
     <script src="./js/scripts.js"></script>
+    <script type="text/javascript" src="./js/wow.js"></script>
+    <script>
+    new WOW({
+        animateClass: 'animated',
+        offset:       100
+    }).init();
+    </script>
 </html>
