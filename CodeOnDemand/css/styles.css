@@ -86,15 +86,19 @@ p {
         min-height: 600px;
         padding: 100px 0;
     }
+    #four{
+        padding-bottom:0px;
+    }
+    #three{
+        padding-bottom: 200px;
+    }
 }
 
 section {
     padding: 70px 0;
 }
 
-#four{
-    padding-bottom:0px;
-}
+
    
 
 aside {
