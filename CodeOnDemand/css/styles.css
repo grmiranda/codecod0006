@@ -461,6 +461,45 @@ footer {
 	color: #fff;
 }
 
+/*Equipe*/
+
+#two{
+  width: 100%;
+  overflow-y: hidden;
+  background: url("../assets/bg-pattern.png"), #3b91c9;
+  /* fallback for old browsers */
+  background: url("../assets/bg-pattern.png"), -webkit-linear-gradient(to right, #1c007f, #3b91c9, #34d6bf);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../assets/bg-pattern.png"), linear-gradient(to right, #1c007f, #3b91c9, #34d6bf);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#two h2, #two p, #two h3{
+    color: white;
+}
+
+#two h3{
+    margin-top:50px;
+}
+
+.equipeIMG{
+    height: 250px;
+    width: 250px;
+    border-radius:50%;
+    border: 1px solid white;
+}
+.slider div{
+    text-align: center;
+}
+
+
+@media(min-width:768px) {
+    .equipeIMG{
+        margin-top:50px;
+    }
+}
+
+
 
 
 
