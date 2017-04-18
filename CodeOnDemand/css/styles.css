@@ -499,6 +499,7 @@ footer {
     width: 250px;
     border-radius:50%;
     border: 3px solid white;
+    position:relative;
 }
 .slider div{
     text-align: center;
@@ -509,7 +510,41 @@ footer {
     .equipeIMG{
         margin-top:50px;
     }
+
+    #two .social-link{
+        padding-left:31%;
+    }
+    #two .social-link li{
+        width:10%;
+        margin-right:5%;
+    }
 }
+
+#two .social-link li a{
+	display:block;
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:25px;
+	color:#fff;
+    background: transparent;
+	border-radius:50%;
+	transition:all 0.3s ease-in-out;
+}
+
+#two .facebook a:hover {
+	color: #3b5998;
+}
+#two .gplus a:hover {
+	color: #dd4b39;
+}
+#two .linkedin a:hover{
+    color: #0077B5;
+}
+
+
+
 
 
 
