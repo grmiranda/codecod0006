@@ -310,6 +310,11 @@ footer {
     height: 100%;
 }
 
+.mobileIMG{
+    width: 100%;
+    height: 80%;
+}
+
 #macbook{
     position:relative;
 }
