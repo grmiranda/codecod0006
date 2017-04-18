@@ -10,11 +10,6 @@ body {
     color: #3b91c9;
 }
 
-.logo{
-    width: 25%;
-    height: 100%;
-}
-
 hr {
     max-width: 80px;
     border-width: 3px;
@@ -80,8 +75,15 @@ p {
     background-color: #1d1d1d;
 }
 
-
+.logo{
+    width:40%;
+    height: 100%;
+}
 @media (min-width: 768px) {
+    .logo{
+        width: 25%;
+        height: 100%;
+    }
     section {
         min-height: 600px;
         padding: 100px 0;
