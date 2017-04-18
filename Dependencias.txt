@@ -1,7 +1,0 @@
-// para atualizar o angular cli para rodar com angular 4.0.1 (necessário fazer isso dentro da pasta do projeto)
-npm uninstall --save-dev angular-cli
-npm install --save-dev angular-cli@latest
-
-npm install bootstrap@4.0.0-alpha.6 //Bootstrap 4
-npm install --save font-awesome angular2-font-awesome //Font Awesome (icones)
-npm install --save-dev @types/jquery //JQuery compiler
