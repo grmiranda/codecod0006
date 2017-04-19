@@ -273,19 +273,19 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-                    <div class="form">
+                    <div class="form" onsubmit="controller.adicionarFaleConosco(event)">
                         <form action="" method="post" role="form" class="contactForm">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control input-text" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Por favor, escreve ao menos 4 caracteres" />
+                                <input type="text" name="name" class="form-control input-text" id="faleName" placeholder="Nome" required="required" minlength=5 />
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control input-text" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Por favor, entre um e-mail válido" />
+                                <input type="email" class="form-control input-text" name="email" id="faleEmail" placeholder="E-mail" required="required" minlength=10 />
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:8" data-msg="Por favor, pelo menos 8 caracteres" />
+                                <input type="text" class="form-control input-text" name="subject" id="faleAssunto" placeholder="Assunto" required="required" minlength=5 />
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Por favor, nos escreva uma mensagem" placeholder="Mensagem"></textarea>
+                                <textarea class="form-control input-text text-area" name="message" id="faleMensagem" rows="5" required="required" data-rule="required" minlength=10 placeholder="Mensagem"></textarea>
                             </div>
                             <div class="text-center"><button type="submit" class="input-btn">Enviar menssagem</button></div>
                         </form>
@@ -301,6 +301,11 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery.easing.min.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="./js/model/FaleConosco.js"></script>    
+    <script src="./js/controller/Controller.js"></script>
+    <script>
+        let controller = new Controller();
+    </script>
     <script type="text/javascript" src="./js/wow.js"></script>
     <script>
     new WOW({
